@@ -3,7 +3,7 @@ noseY=0;
 
 function preload()
 {
-clown_n = loadImage("https://i.postimg.cc/Z5gscbcx/download-1.png");
+clown_n = loadImage("https://i.postimg.cc/7ZBcjDqp/clownnose.png");
 }
 
 function setup()
@@ -24,7 +24,7 @@ function draw()
  fill(255,0,0);
  stroke(255,0,0);
  circle(noseX,noseY,20);
- image(clown_n,noseX,noseY,30,30);
+ image(clown_n,noseX,noseY,20,20);
 }
 
 function modelLoaded()
